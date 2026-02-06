@@ -23,11 +23,11 @@ function safe($v) {
 <?php
 
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
-  echo '<p class="results__caption">No form data ... <a href="ch12-proj2.php">go to form and enter data</a></p>';
+  echo '<p class="results__caption">No form data ... <a href="ch12-proj2.php">go to form</a> and enter data</p>';
 }
 
 else if (trim($_POST['title'] ?? '') === '') {
-  echo '<p class="results__caption">Title is required ... <a href="ch12-proj2.php">go to form and enter data</a></p>';
+  echo '<p class="results__caption">Title is required ... <a href="ch12-proj2.php">go to form</a> and enter data</p>';
 }
 
 else {
