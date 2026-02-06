@@ -40,34 +40,34 @@ else {
   $museum = $_POST['museum'] ?? '';
 ?>
     <table>
-      <caption class="results__caption">Art Work Saved</caption>
+      <caption class="results_caption">Art Work Saved</caption>
       <tr>
-        <td class="results__label">Title</td>
-        <td class="results__value"><?= safe($title) ?></td>
+        <td class="results_label">Title</td>
+        <td class="results_value"><?= safe($title) ?></td>
       </tr>
       <tr>
-        <td class="results__label">Description</td>
-        <td class="results__value"><?= safe($description) ?></td>
+        <td class="results_label">Description</td>
+        <td class="results_value"><?= safe($description) ?></td>
       </tr>
       <tr>
-        <td class="results__label">Genre</td>
-        <td class="results__value"><?= safe($genre) ?></td>
+        <td class="results_label">Genre</td>
+        <td class="results_value"><?= safe($genre) ?></td>
       </tr>
       <tr>
-        <td class="results__label">Subject</td>
-        <td class="results__value"><?= safe($subject) ?></td>
+        <td class="results_label">Subject</td>
+        <td class="results_value"><?= safe($subject) ?></td>
       </tr>
       <tr>
-        <td class="results__label">Medium</td>
-        <td class="results__value"><?= safe($medium) ?></td>
+        <td class="results_label">Medium</td>
+        <td class="results_value"><?= safe($medium) ?></td>
       </tr>
       <tr>
-        <td class="results__label">Year</td>
-        <td class="results__value"><?= safe($year) ?></td>
+        <td class="results_label">Year</td>
+        <td class="results_value"><?= safe($year) ?></td>
       </tr>
       <tr>
-        <td class="results__label">Museum</td>
-        <td class="results__value"><?= safe($museum) ?></td>
+        <td class="results_label">Museum</td>
+        <td class="results_value"><?= safe($museum) ?></td>
       </tr>
     </table>
 <?php } ?>
